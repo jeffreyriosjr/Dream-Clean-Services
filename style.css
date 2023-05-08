@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*
+Theme Name: Handyman Cleaning Service
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-handyman-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Handyman Cleaning Service theme is a modern, clean, and professional theme specially created for Labor services, House Cleaning, Apartment Cleaners, Industry Cleaning, Office Cleaning, and Housemaid Solutions. The Cleaning Services theme is entirely responsive and looks great on all types of screens and devices. It comes with many user-friendly and customizable features that will help you create a clean website to achieve the main goal of online business. Features like favicon, logo, title, and tagline customization, Advanced color options, and color pallets, 100+ font family options, a Header with a call to action button, a Simple menu option, a Sticky header, SEO friendly, and a Pagination option. The Woo commerce & SEO compatible theme will boost your business and improve traffic. SEO optimized theme will improve your rank in SERP and visibility to web crawlers. WordPress provides a refreshing block building experience in Gutenberg that facilitates drag & drops editing. The theme further enhances this interface by providing the Elementor page builder. You can use these features to create beautiful and clean pages. WP theme has the in-built advanced features and functionalities besides being Bootstrap oriented, CTA [call to action] button, personalization options, customization options, and clean and secure code.
+Version: 1.4
+Tested up to: 6.1
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: smart-cleaning
+Text Domain: handyman-cleaning-service
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, food-and-drink
+
+Handyman Cleaning Service WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Handyman Cleaning Service WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{
+    color: #7e7d7d;
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar ul li a{
+    color: #7e7d7d;
+}
+a, .sidebar ul li a:hover, .widget a:hover, .widget a:focus, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .featured-imagebox h4 a, #featured-topic h3, .main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,.navbar-brand a,#colophon a:hover, #colophon a:focus{
+    color: #ffa800;
+}
+.sidebar h5, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .sticky .entry-title::before, .main-navigation .sub-menu,  .timebox,.sidebar .tagcloud a:hover{
+    background: #ffa800;
+}
+.comment-respond input#submit, #button, .sidebar input[type="submit"], .sidebar button[type="submit"], .wp-block-button__link, .pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce .woocommerce-ordering select, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, .toggle-nav i,.slide-btn a:hover,.servbtn a{
+    background: #ffa500;
+}
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #ffa800 !important;
+}
+.top-info p, .top-info span,.top-info i,.top-info a{
+    color: #0e3d4b;
+}
+h1, h2, h3, h4, h5, h6,.main-navigation .menu > li > a,.article-box a{
+    color: #000;
+}
+.page-template-home-template .socialmedia,.sidebar section,.socialmedia {
+    background: #fff;
+}
+.main-navigation .menu > li > a,.main-navigation .menu > li > a:hover{
+    border: none;
+}
+.socialmedia .main_header,a.added_to_cart.wc-forward:hover,.main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,.slide-btn a, .servbtn a:hover,.pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.box-content .servbtn a:hover,#colophon{
+    background: #000;
+    color: #fff;
+}
+.main_header i,.slide-btn a, .servbtn a {
+    color: #fff;
+}
+.main_header p {
+    font-weight: 500;
+}
+.main-navigation .menu > li{
+    font-size: 12px;
+    font-weight: 600;
+}
+.navbar-brand{
+    display: block;
+}
+.navigation_header .nav {
+    justify-content: flex-end;
+}
+.main_header p a:hover {
+    color: #ffa500;
+}
+.main_header i:hover{
+    color: #ffa500;
+}
+.featured-imagebox:hover a{
+    color: #ffa500;
+}
+
+/* Slider Section */
+
+.slider-box:after {
+    content: none;
+    height: auto;
+    position: static;
+    background-image: transparent;
+}
+.slider-inner-box h2{
+    text-transform: none;
+    font-size: 55px;
+}
+.slider-inner-box {
+    right: 55%;
+}
+
+/* Services Section */
+
+.box {
+    background: #ffa800;
+    text-align: center;
+    color: #fff;
+}
+.box-cont h3 a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.featured-imagebox {
+    background: #f7f5f2;
+    box-shadow: 0 0 15px 1px #d9d9d9;
+    border-bottom: solid 3px #ffa500;
+    padding: 15px;
+}
+.featured-imagebox h4 {
+    font-size: 18px;
+    color: #000;
+}
+.featured-imagebox h4 {
+    font-size: 18px;
+    color: #000;
+}
+.featured-imagebox a {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+#featured-topic h3,#services-topic h3{
+    font-size: 30px;
+    color: #000;
+}
+
+a.added_to_cart.wc-forward {
+    display: table;
+    background: #ffa800;
+    margin: 6% 0% 0% 21%;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 29px 7px 30px;
+    font-weight: 700;
+}
+.article-box {
+    border: solid 1px #ffa800;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .main-navigation .menu > li > a{
+        color: #fff;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .slider-inner-box {
+        right: 10%;
+    }
+    .slider-inner-box h2 {
+        font-size: 25px;
+    }
+    
+
+ .footer-menu li {
+    font-size: 24px !important;
+    
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .main-navigation .menu > li > a{
+        color: #fff;
+    }
+    .slider-inner-box {
+        right: 25%;
+    }
+    .toggle-nav.mobile-menu {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    .slider-inner-box {
+        right: 25%;
+    }
+}
